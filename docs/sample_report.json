@@ -1,0 +1,56 @@
+{
+  "environment": {
+    "python": "3.12.7",
+    "opencv": "4.11.0",
+    "numpy": "2.0.2"
+  },
+  "tasks": {
+    "1": {
+      "images_written": 3
+    },
+    "2": {
+      "width": 830,
+      "height": 986,
+      "fps": 30.0,
+      "frames_written": 526,
+      "frames_extracted": 17
+    },
+    "3": {
+      "shape": [
+        628,
+        582,
+        3
+      ],
+      "dtype": "uint8",
+      "images_written": 13,
+      "manual_gray_ms": 12.406100053340197,
+      "opencv_gray_ms": 0.03860006108880043,
+      "gray_max_difference": 1
+    },
+    "4": {
+      "images_written": 9,
+      "blue_pixel_count": 28746
+    },
+    "5": {
+      "contours_total": 142,
+      "contours_filtered": 2,
+      "largest_contour_area": 124482.5,
+      "original_histogram_peak_values": [
+        255
+      ],
+      "original_histogram_peak_count": 129507,
+      "equalized_histogram_peak_values": [
+        255
+      ],
+      "equalized_histogram_peak_count": 129507,
+      "template_score": 1.0,
+      "template_location": [
+        65,
+        275
+      ],
+      "hough_lines": 95,
+      "hough_circles": 6,
+      "images_written": 12
+    }
+  }
+}
